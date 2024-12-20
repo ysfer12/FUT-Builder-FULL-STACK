@@ -1,0 +1,37 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Semi-transparent background -->
+    <rect width="600" height="800" fill="rgba(64, 64, 64, 0.3)"/>
+    
+    <!-- Field lines - all in light gray with transparency -->
+    <g stroke="rgba(80, 80, 80, 0.4)" fill="none" stroke-width="1.5">
+        <!-- Outer boundary -->
+        <rect x="50" y="50" width="500" height="700"/>
+        
+        <!-- Center line -->
+        <line x1="50" y1="400" x2="550" y2="400"/>
+        
+        <!-- Center circle -->
+        <circle cx="300" cy="400" r="70"/>
+        <circle cx="300" cy="400" r="2" fill="rgba(80, 80, 80, 0.4)"/>
+        
+        <!-- Top penalty area -->
+        <rect x="175" y="50" width="250" height="150"/>
+        <rect x="225" y="50" width="150" height="60"/>
+        <path d="M 300 200 A 70 70 0 0 1 300 200"/>
+        
+        <!-- Bottom penalty area -->
+        <rect x="175" y="600" width="250" height="150"/>
+        <rect x="225" y="690" width="150" height="60"/>
+        <path d="M 300 600 A 70 70 0 0 0 300 600"/>
+        
+        <!-- Corner arcs -->
+        <path d="M 60 60 A 10 10 0 0 0 50 50" />
+        <path d="M 540 60 A 10 10 0 0 1 550 50" />
+        <path d="M 60 740 A 10 10 0 0 1 50 750" />
+        <path d="M 540 740 A 10 10 0 0 0 550 750" />
+    </g>
+
+    <!-- Semi-transparent watermarks -->
+    <text x="60" y="780" fill="rgba(80, 80, 80, 0.4)" font-family="Arial" font-size="12">FUTDIN</text>
+    <text x="480" y="780" fill="rgba(80, 80, 80, 0.4)" font-family="Arial" font-size="12">FUTDIN</text>
+</svg>
